@@ -5,6 +5,11 @@ def get_args():
     p.add_argument('file', help="Chemin pour un fichier texte")
     return p.parse_args()
 
+def new_function():
+    """ This function does nothing, I just wanted to add something
+    that would not cause conflicts """
+    pass
+
 def main():
     args = get_args()
 
